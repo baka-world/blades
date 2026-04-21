@@ -9,6 +9,7 @@ replace (
 	github.com/go-kratos/blades/contrib/mcp => ../contrib/mcp
 	github.com/go-kratos/blades/contrib/openai => ../contrib/openai
 	github.com/go-kratos/blades/contrib/otel => ../contrib/otel
+	github.com/go-kratos/blades/contrib/yuanqi => ../contrib/yuanqi
 )
 
 require (
@@ -18,6 +19,7 @@ require (
 	github.com/go-kratos/blades/contrib/mcp v0.0.0-20251106103709-242709515a73
 	github.com/go-kratos/blades/contrib/openai v0.0.0-20251106103709-242709515a73
 	github.com/go-kratos/blades/contrib/otel v0.0.0-20251106103709-242709515a73
+	github.com/go-kratos/blades/contrib/yuanqi v0.0.0-00010101000000-000000000000
 	github.com/google/jsonschema-go v0.3.0
 	go.opentelemetry.io/otel v1.38.0
 	go.opentelemetry.io/otel/exporters/stdout/stdouttrace v1.38.0
