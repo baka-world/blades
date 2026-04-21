@@ -5,7 +5,7 @@
 ## Features
 
 - Non-streaming and streaming chat completions
-- `assistant_id` / `appkey` auth mapping
+- `assistant_id` / `AppKey` auth mapping
 - Optional `UserIDResolver(ctx)`
 - Message mapping for text and image URL input
 - Provider-level concurrency limiting (max 10)
@@ -15,7 +15,7 @@
 ```go
 model := yuanqi.NewModel("yuanqi-agent", yuanqi.Config{
     AppKey:      os.Getenv("YUANQI_APPKEY"),
-    AssistantID: os.Getenv("YUANQI_APPID"),
+    AssistantID: os.Getenv("YUANQI_ASSISTANT_ID"),
     UserID:      "demo-user",
 })
 

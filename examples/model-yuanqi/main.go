@@ -12,7 +12,7 @@ import (
 func main() {
 	model := yuanqi.NewModel("yuanqi-agent", yuanqi.Config{
 		AppKey:      os.Getenv("YUANQI_APPKEY"),
-		AssistantID: os.Getenv("YUANQI_APPID"),
+		AssistantID: os.Getenv("YUANQI_ASSISTANT_ID"),
 		UserID:      os.Getenv("YUANQI_USER_ID"),
 	})
 
